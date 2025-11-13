@@ -33,7 +33,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "conf.urls"
+ROOT_URLCONF = "alx_travel_app.urls"
 
 TEMPLATES = [
     {
@@ -52,7 +52,7 @@ TEMPLATES = [
 
 CORS_ALLOWED_ORIGINS = []
 
-WSGI_APPLICATION = "conf.wsgi.application"
+WSGI_APPLICATION = "alx_travel_app.wsgi.application"
 
 DATABASES = {
     "default": {
