@@ -18,7 +18,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "drf_yasg",
     "rest_framework",
-    "corsheaders"
+    "corsheaders",
+    "listings.apps.ListingsConfig"
 ]
 
 MIDDLEWARE = [
